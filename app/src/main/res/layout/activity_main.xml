@@ -207,12 +207,14 @@
              <android.widget.Button
                  android:layout_width="match_parent"
                  android:layout_height="80dp"
-                 android:text="<-"
                  android:textSize="30sp"
                  android:textStyle="bold"
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
+                 android:drawableTop="@drawable/ic_baseline_backspace_24"
+                 android:drawableTint="@color/white"
+                 android:paddingTop="30dp"
                  android:id="@+id/buttonback">
 
              </android.widget.Button>
