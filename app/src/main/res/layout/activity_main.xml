@@ -12,11 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_above="@+id/buttonLayout"
         >
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="55"
+                android:text="50*2/10"
                 android:textColor="@color/white"
                 android:clickable="false"
                 android:focusable="true"
@@ -25,6 +26,7 @@
                 android:verticalScrollbarPosition="right"
                 android:background="@android:color/transparent"
                 android:paddingTop="10dp"
+                android:paddingRight="10dp"
                 android:textAlignment="viewEnd"
                 android:textSize="50sp"
                 android:id="@+id/inputnumber">
@@ -33,7 +35,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bro change this"
+                android:text="10"
                 android:textColor="#fff"
                 android:ellipsize="end"
                 android:textSize="25sp"
@@ -41,11 +43,13 @@
                 android:clickable="false"
                 android:background="@android:color/transparent"
                 android:paddingTop="10dp"
-                android:textAlignment="viewEnd">
+                android:paddingRight="10dp"
+                android:textAlignment="viewEnd"
+                android:id="@+id/resultview">
             </EditText>
     </LinearLayout>
 
-     <LinearLayout
+    <LinearLayout
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:layout_alignParentBottom="true"
@@ -139,7 +143,7 @@
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/buttonPercentage">
+                 android:id="@+id/buttonPer">
 
              </android.widget.Button>
 
@@ -152,7 +156,7 @@
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/button7">
+                 android:id="@+id/button8">
              </android.widget.Button>
 
              <android.widget.Button
@@ -164,7 +168,7 @@
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/button4">
+                 android:id="@+id/button5">
              </android.widget.Button>
 
              <android.widget.Button
@@ -176,7 +180,7 @@
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/button1">
+                 android:id="@+id/button2">
              </android.widget.Button>
 
              <android.widget.Button
@@ -203,13 +207,15 @@
              <android.widget.Button
                  android:layout_width="match_parent"
                  android:layout_height="80dp"
-                 android:text="C"
                  android:textSize="30sp"
                  android:textStyle="bold"
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/clear">
+                 android:drawableTop="@drawable/ic_baseline_backspace_24"
+                 android:drawableTint="@color/white"
+                 android:paddingTop="30dp"
+                 android:id="@+id/buttonback">
 
              </android.widget.Button>
 
@@ -246,7 +252,7 @@
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/button1">
+                 android:id="@+id/button3">
              </android.widget.Button>
 
              <android.widget.Button
@@ -273,20 +279,20 @@
              <android.widget.Button
                  android:layout_width="match_parent"
                  android:layout_height="80dp"
-                 android:text="D"
+                 android:text="/"
                  android:textSize="30sp"
                  android:textStyle="bold"
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/clear">
+                 android:id="@+id/Divide">
 
              </android.widget.Button>
 
              <android.widget.Button
                  android:layout_width="match_parent"
                  android:layout_height="80dp"
-                 android:text="X"
+                 android:text="x"
                  android:textSize="30sp"
                  android:textStyle="bold"
                  android:textColor="@color/white"
@@ -298,25 +304,25 @@
              <android.widget.Button
                  android:layout_width="match_parent"
                  android:layout_height="80dp"
-                 android:text="4"
+                 android:text="-"
                  android:textSize="30sp"
                  android:textStyle="bold"
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/button4">
+                 android:id="@+id/buttonSub">
              </android.widget.Button>
 
              <android.widget.Button
                  android:layout_width="match_parent"
                  android:layout_height="80dp"
-                 android:text="1"
+                 android:text="+"
                  android:textSize="30sp"
                  android:textStyle="bold"
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/button1">
+                 android:id="@+id/buttonAdd">
              </android.widget.Button>
 
              <android.widget.Button
@@ -328,7 +334,7 @@
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/button00">
+                 android:id="@+id/buttonEqual">
              </android.widget.Button>
 
          </LinearLayout>
