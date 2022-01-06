@@ -73,7 +73,7 @@
                   android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/clear">
+                 android:id="@+id/buttonClear">
 
              </android.widget.Button>
 
@@ -143,7 +143,7 @@
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/buttonPer">
+                 android:id="@+id/buttonPercentage">
 
              </android.widget.Button>
 
@@ -215,7 +215,7 @@
                  android:drawableTop="@drawable/ic_baseline_backspace_24"
                  android:drawableTint="@color/white"
                  android:paddingTop="30dp"
-                 android:id="@+id/buttonback">
+                 android:id="@+id/buttonbackspace">
 
              </android.widget.Button>
 
@@ -285,7 +285,7 @@
                  android:textColor="@color/white"
                  android:background="@drawable/ripple"
                  android:gravity="center"
-                 android:id="@+id/Divide">
+                 android:id="@+id/buttonDivide">
 
              </android.widget.Button>
 
